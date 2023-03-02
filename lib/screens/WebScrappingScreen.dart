@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:html/parser.dart';
 import 'package:http/http.dart' as http;
 import '../model_news.dart';
+import 'news_description.dart';
 
 class WebScrappingScreen extends StatefulWidget {
   const WebScrappingScreen({Key? key}) : super(key: key);
@@ -175,7 +176,9 @@ class _WebScrappingScreenState extends State<WebScrappingScreen> {
             margin: EdgeInsets.only(bottom: 4,top: 8, left: 16, right: 16),
             child: InkWell(
               onTap: () {
-
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => NewsDescription(news_next.title, news_next.link)));
               },
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
