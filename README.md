@@ -1,6 +1,7 @@
 # web_scraping_flutter
 
 A new Flutter project.
+Getting news from https://dotconnectafrica.com/dca-digital-digest/
 
 ## Getting Started
 
