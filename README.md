@@ -1,7 +1,7 @@
 # web_scraping_flutter
 
 A new Flutter project.
-Getting news from https://dotconnectafrica.com/dca-digital-digest/
+Getting news from https://dotconnectafrica.com/dca-digital-digest/ use the class Ids - getClassById
 
 ## Getting Started
 
